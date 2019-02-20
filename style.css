@@ -23,8 +23,7 @@ body {
 }
 
 .navbar-brand img {
-  height: 2.5rem;
-  border: .05rem solid white;
+  height: 3.5rem;
 }
 
 .navbar-nav li {
