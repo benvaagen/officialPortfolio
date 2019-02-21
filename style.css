@@ -185,7 +185,7 @@ footer {
 footer img {
   height: 3rem;
   margin: 1.5rem 0;
-  border: .05rem solid white;
+border-radius: .6rem;
 }
 
 footer a{
@@ -228,6 +228,13 @@ hr.socket {
   .narrow h1 {
     font-size: 1.5rem;
   }
+
+
+.dark {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0;
+}
 
   .clients img {
     max-width: 50%;
