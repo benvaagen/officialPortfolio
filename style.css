@@ -42,7 +42,7 @@ body {
 
 /* Landing Page CSS */
 .home-inner {
-  background-image: url(img/trees.jpg);
+  background-image: url(img/waves.jpg);
 }
 
 .caption {
@@ -141,7 +141,7 @@ h3.heading {
 
 /* Resources Section */
 .fixed {
-  background-image: url("img/leaves.jpg");
+  background-image: url("img/underwaves.jpeg");
   z-index: -1;
 }
 
