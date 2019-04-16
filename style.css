@@ -131,6 +131,7 @@ body {
 .card {
   border-style: solid;
   border-radius: 1rem;
+  background-color: rgb(255, 255, 255);
   color: black;
   padding: 1rem;
   height: 100%;
