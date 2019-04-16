@@ -14,6 +14,14 @@ body {
 }
 
 /* Navigation */
+#miniMe {
+  border-radius: 1rem;
+}
+
+#icon {
+  border-radius: 1rem;
+}
+
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -37,7 +45,7 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #dc143c;
+  color: rgb(38,169,226);
 }
 
 /* Landing Page CSS */
@@ -76,6 +84,8 @@ body {
   font-size: 1.1rem;
 }
 
+
+
 /* ABOUT SECTION */
 
 .narrow {
@@ -86,9 +96,13 @@ body {
 
 .narrow h1 {
   font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  /* margin-top: 1.9rem; */
 }
 
-.btn-secondary {
+#link {
   border-width: medium;
   border-radius: 0;
   text-transform: uppercase;
@@ -96,12 +110,12 @@ body {
   padding: .6rem 1.2rem;
   margin: 1rem;
   color: white;
-  background-color: #dc143c;
+  background-color: rgb(38,169,226);
   border-color: #505962;
 }
 
-.btn-secondary:hover {
-  background-color: #a7112f;
+#link {
+  background-color: rgb(14, 92, 126);
 }
 
 /* Portfolio Section */
@@ -109,6 +123,17 @@ body {
   margin-bottom: 0;
   padding: 2rem 0 3.5rem;
   border-radius: 0;
+  background-color: rgb(0,44,105);
+  /* background-color: rgb(64, 71, 78) !important; */
+  color: white;
+}
+
+#card {
+  border-style: solid;
+  border-radius: 1rem;
+  color: black;
+  padding: 1rem;
+  /* height: 24rem; */
 }
 
 h3.heading {
@@ -116,27 +141,31 @@ h3.heading {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1.9rem;
+  margin-top: 1.9rem;
 }
 
 .heading-underline {
   width: 3rem;
   height: .2rem;
-  background-color: #dc143c;
+  background-color: rgb(38,169,226);
   margin: 0 auto 2rem;
 }
 
 .feature svg.svg-inline--fa {
-  color: #dc143c;
+  color: rgb(38,169,226);
 }
 
 .feature h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
   padding-bottom: .4rem;
+  padding-top: .4rem;
 }
 
+
 .feature p {
-  font-size: 1.1rem;
+  font-size: 1rem;
+
 }
 
 /* Resources Section */
@@ -166,17 +195,17 @@ h3.heading {
 }
 
 blockquote svg.svg-inline--fa {
-  color: #dc143c;
+  color: rgb(38,169,226);
   margin: 1rem;
 }
 
 .clients-hr {
-  border-top: .05rem solid #dc143c;
+  border-top: .05rem solid rgb(38,169,226);
 }
 
 /* Contact */
 footer {
-  background-color: #40474e;
+  background-color: rgba(0, 0, 0, .9) !important;
   color: white;
   padding: 2rem 0 2rem;
   margin-top: 1rem;
@@ -198,12 +227,12 @@ footer svg.svg-inline--fa {
 }
 
 footer svg.svg-inline--fa:hover {
-  color: #dc143c!important;
+  color: rgb(38,169,226)!important;
 }
 
 hr.socket {
   width: 100%;
-  border-top: .2rem solid #66671; 
+  border-top: .2rem solid #666671; 
 }
 
 /* Media Queries */
