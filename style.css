@@ -193,6 +193,7 @@ h3.heading {
 .clients img {
   width: 100%;
   border-radius: 50%;
+  border: solid white;
 }
 
 blockquote svg.svg-inline--fa {
