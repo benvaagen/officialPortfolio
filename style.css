@@ -87,6 +87,13 @@ body {
 
 
 /* ABOUT SECTION */
+.fa-4x {
+  color: rgb(38,169,226);
+}
+
+.fa-4x:hover {
+  color: rgb(0,44,105);
+}
 
 .narrow {
   width: 75%;
@@ -102,7 +109,7 @@ body {
   /* margin-top: 1.9rem; */
 }
 
-#link {
+/* #link {
   border-width: medium;
   border-radius: 0;
   text-transform: uppercase;
@@ -112,11 +119,11 @@ body {
   color: white;
   background-color: rgb(38,169,226);
   border-color: #505962;
-}
+} */
 
-#link {
+/* #link {
   background-color: rgb(14, 92, 126);
-}
+} */
 
 /* Portfolio Section */
 .jumbotron {
@@ -156,6 +163,10 @@ h3.heading {
   color: rgb(38,169,226);
 }
 
+.feature svg.svg-inline--fa:hover {
+  color: rgb(0,44,105);
+} 
+
 .feature h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
@@ -176,9 +187,9 @@ h3.heading {
 }
 
 .dark {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.50);
   color: white;
-  padding: 7rem 2rem;
+  padding: 1rem 2rem !important;
 }
 
 .fixed-background h3 {
