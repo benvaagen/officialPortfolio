@@ -77,6 +77,12 @@ body {
   padding-bottom: 1.6rem;
 }
 
+.me img{
+  /* width: 100%; */
+  border-radius: 50%;
+  border: solid white;
+}
+
 .btn-lg {
   border-width: medium;
   border-radius: 0;
@@ -279,6 +285,12 @@ hr.socket {
 }
 
   .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .me img {
     max-width: 50%;
     display: block;
     margin: 0 auto;
